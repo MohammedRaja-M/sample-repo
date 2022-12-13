@@ -1,0 +1,274 @@
+2022-12-11 05:33:51.891  INFO MohamedRaja-PROMON --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-11 05:33:51.900  INFO MohamedRaja-PROMON --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-12-11 05:33:52.026  INFO MohamedRaja-PROMON --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8090 (http)
+2022-12-11 05:33:52.028  INFO MohamedRaja-PROMON --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8090"]
+2022-12-11 05:33:52.029  INFO MohamedRaja-PROMON --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2022-12-11 05:33:52.030  INFO MohamedRaja-PROMON --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-11 05:33:52.062  INFO MohamedRaja-PROMON --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2022-12-11 05:33:52.062  INFO MohamedRaja-PROMON --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 599 ms
+2022-12-11 05:33:52.104  INFO MohamedRaja-PROMON --- [  restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-11 05:33:52.109 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration boolean -> org.hibernate.type.BooleanType@457b1c1e
+2022-12-11 05:33:52.110 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration boolean -> org.hibernate.type.BooleanType@457b1c1e
+2022-12-11 05:33:52.110 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@457b1c1e
+2022-12-11 05:33:52.110 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@5de321ae
+2022-12-11 05:33:52.110 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration true_false -> org.hibernate.type.TrueFalseType@946037c
+2022-12-11 05:33:52.110 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration yes_no -> org.hibernate.type.YesNoType@578a045c
+2022-12-11 05:33:52.110 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration byte -> org.hibernate.type.ByteType@139e6e84
+2022-12-11 05:33:52.110 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration byte -> org.hibernate.type.ByteType@139e6e84
+2022-12-11 05:33:52.110 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@139e6e84
+2022-12-11 05:33:52.110 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration character -> org.hibernate.type.CharacterType@286751db
+2022-12-11 05:33:52.111 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration char -> org.hibernate.type.CharacterType@286751db
+2022-12-11 05:33:52.111 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@286751db
+2022-12-11 05:33:52.111 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration short -> org.hibernate.type.ShortType@1ed178c2
+2022-12-11 05:33:52.111 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration short -> org.hibernate.type.ShortType@1ed178c2
+2022-12-11 05:33:52.111 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1ed178c2
+2022-12-11 05:33:52.111 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration integer -> org.hibernate.type.IntegerType@48c84ee8
+2022-12-11 05:33:52.111 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration int -> org.hibernate.type.IntegerType@48c84ee8
+2022-12-11 05:33:52.111 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@48c84ee8
+2022-12-11 05:33:52.111 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration long -> org.hibernate.type.LongType@26dc46f1
+2022-12-11 05:33:52.112 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration long -> org.hibernate.type.LongType@26dc46f1
+2022-12-11 05:33:52.112 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Long -> org.hibernate.type.LongType@26dc46f1
+2022-12-11 05:33:52.112 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration float -> org.hibernate.type.FloatType@5a72fc65
+2022-12-11 05:33:52.112 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration float -> org.hibernate.type.FloatType@5a72fc65
+2022-12-11 05:33:52.112 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@5a72fc65
+2022-12-11 05:33:52.112 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration double -> org.hibernate.type.DoubleType@5acec5c9
+2022-12-11 05:33:52.112 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration double -> org.hibernate.type.DoubleType@5acec5c9
+2022-12-11 05:33:52.112 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@5acec5c9
+2022-12-11 05:33:52.112 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@45848b11
+2022-12-11 05:33:52.112 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@45848b11
+2022-12-11 05:33:52.112 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@13ed7e03
+2022-12-11 05:33:52.113 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@13ed7e03
+2022-12-11 05:33:52.113 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration string -> org.hibernate.type.StringType@424c4d4
+2022-12-11 05:33:52.113 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.String -> org.hibernate.type.StringType@424c4d4
+2022-12-11 05:33:52.113 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@7d599884
+2022-12-11 05:33:52.113 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@5de20abd
+2022-12-11 05:33:52.113 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration url -> org.hibernate.type.UrlType@664e2a3e
+2022-12-11 05:33:52.114 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.net.URL -> org.hibernate.type.UrlType@664e2a3e
+2022-12-11 05:33:52.114 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Duration -> org.hibernate.type.DurationType@6ed5aed3
+2022-12-11 05:33:52.114 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6ed5aed3
+2022-12-11 05:33:52.114 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Instant -> org.hibernate.type.InstantType@18a03b2b
+2022-12-11 05:33:52.114 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@18a03b2b
+2022-12-11 05:33:52.114 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@7ca9d78a
+2022-12-11 05:33:52.114 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@7ca9d78a
+2022-12-11 05:33:52.114 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@55b01004
+2022-12-11 05:33:52.114 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@55b01004
+2022-12-11 05:33:52.114 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@7dee3e27
+2022-12-11 05:33:52.115 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@7dee3e27
+2022-12-11 05:33:52.115 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4d5211dc
+2022-12-11 05:33:52.115 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4d5211dc
+2022-12-11 05:33:52.115 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@58ec745a
+2022-12-11 05:33:52.115 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@58ec745a
+2022-12-11 05:33:52.115 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@42069514
+2022-12-11 05:33:52.115 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@42069514
+2022-12-11 05:33:52.115 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration date -> org.hibernate.type.DateType@731b6085
+2022-12-11 05:33:52.115 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Date -> org.hibernate.type.DateType@731b6085
+2022-12-11 05:33:52.115 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration time -> org.hibernate.type.TimeType@1efc4ded
+2022-12-11 05:33:52.115 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1efc4ded
+2022-12-11 05:33:52.115 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration timestamp -> org.hibernate.type.TimestampType@4030ff48
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@4030ff48
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@4030ff48
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@52792faf
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration calendar -> org.hibernate.type.CalendarType@39db03d4
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@39db03d4
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@39db03d4
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@16ec6f6a
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@46236912
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration locale -> org.hibernate.type.LocaleType@7a9bacd5
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@7a9bacd5
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration currency -> org.hibernate.type.CurrencyType@29aefc63
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@29aefc63
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration timezone -> org.hibernate.type.TimeZoneType@560d90d
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@560d90d
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration class -> org.hibernate.type.ClassType@8b85ef8
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@8b85ef8
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@413dd72b
+2022-12-11 05:33:52.116 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@413dd72b
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@5313637b
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration binary -> org.hibernate.type.BinaryType@5f107491
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration byte[] -> org.hibernate.type.BinaryType@5f107491
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [B -> org.hibernate.type.BinaryType@5f107491
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6f55b41f
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6f55b41f
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6f55b41f
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration row_version -> org.hibernate.type.RowVersionType@298f8e62
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration image -> org.hibernate.type.ImageType@5f84d02f
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration characters -> org.hibernate.type.CharArrayType@6bddaf80
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration char[] -> org.hibernate.type.CharArrayType@6bddaf80
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [C -> org.hibernate.type.CharArrayType@6bddaf80
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6fad215b
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6fad215b
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6fad215b
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration text -> org.hibernate.type.TextType@4a3bb050
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration ntext -> org.hibernate.type.NTextType@2c1b2464
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration blob -> org.hibernate.type.BlobType@1ed6e1f0
+2022-12-11 05:33:52.117 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1ed6e1f0
+2022-12-11 05:33:52.119 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1671f0fd
+2022-12-11 05:33:52.119 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration clob -> org.hibernate.type.ClobType@580630f7
+2022-12-11 05:33:52.119 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@580630f7
+2022-12-11 05:33:52.119 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration nclob -> org.hibernate.type.NClobType@1df0df4
+2022-12-11 05:33:52.119 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1df0df4
+2022-12-11 05:33:52.119 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@b6e1afb
+2022-12-11 05:33:52.119 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6cf515b8
+2022-12-11 05:33:52.119 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration serializable -> org.hibernate.type.SerializableType@37919ba
+2022-12-11 05:33:52.119 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration object -> org.hibernate.type.ObjectType@2e85d19e
+2022-12-11 05:33:52.119 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@2e85d19e
+2022-12-11 05:33:52.119 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@4ec36f87
+2022-12-11 05:33:52.119 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@3ec3c19c
+2022-12-11 05:33:52.119 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@553e07f4
+2022-12-11 05:33:52.119 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@20e57619
+2022-12-11 05:33:52.120 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@758f8ad5
+2022-12-11 05:33:52.120 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@55606ad9
+2022-12-11 05:33:52.120 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7044c626
+2022-12-11 05:33:52.120 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@7b9a2389
+2022-12-11 05:33:52.123  INFO MohamedRaja-PROMON --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2022-12-11 05:33:52.153  INFO MohamedRaja-PROMON --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2022-12-11 05:33:52.153  INFO MohamedRaja-PROMON --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-12-11 05:33:52.157 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.s.TypeConfiguration$Scope          : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7c73ef7f] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@ac6167b]
+2022-12-11 05:33:52.168 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.s.TypeConfiguration$Scope          : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7c73ef7f] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@47badbbf]
+2022-12-11 05:33:52.210  INFO MohamedRaja-PROMON --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-11 05:33:52.210 TRACE MohamedRaja-PROMON --- [  restartedMain] o.h.t.s.TypeConfiguration$Scope          : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@47badbbf] for TypeConfiguration
+2022-12-11 05:33:52.211  INFO MohamedRaja-PROMON --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-11 05:33:52.569  INFO MohamedRaja-PROMON --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-11 05:33:52.688  INFO MohamedRaja-PROMON --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8090"]
+2022-12-11 05:33:52.694  INFO MohamedRaja-PROMON --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8090 (http) with context path ''
+2022-12-11 05:33:52.760  INFO MohamedRaja-PROMON --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-12-11 05:34:01.878  INFO MohamedRaja-PROMON --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-11 05:34:01.879  INFO MohamedRaja-PROMON --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-11 05:34:02.781  INFO MohamedRaja-PROMON --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-11 05:34:02.836  INFO MohamedRaja-PROMON --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2022-12-11 05:34:03.634  INFO MohamedRaja-PROMON --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8090 (http)
+2022-12-11 05:34:03.651  INFO MohamedRaja-PROMON --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8090"]
+2022-12-11 05:34:03.652  INFO MohamedRaja-PROMON --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2022-12-11 05:34:03.652  INFO MohamedRaja-PROMON --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-11 05:34:03.755  INFO MohamedRaja-PROMON --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2022-12-11 05:34:03.755  INFO MohamedRaja-PROMON --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1875 ms
+2022-12-11 05:34:03.964  INFO MohamedRaja-PROMON --- [  restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-11 05:34:04.038  INFO MohamedRaja-PROMON --- [  restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-11 05:34:04.220  INFO MohamedRaja-PROMON --- [  restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-11 05:34:04.243 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration boolean -> org.hibernate.type.BooleanType@457b1c1e
+2022-12-11 05:34:04.243 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration boolean -> org.hibernate.type.BooleanType@457b1c1e
+2022-12-11 05:34:04.244 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@457b1c1e
+2022-12-11 05:34:04.244 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@5de321ae
+2022-12-11 05:34:04.245 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration true_false -> org.hibernate.type.TrueFalseType@946037c
+2022-12-11 05:34:04.246 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration yes_no -> org.hibernate.type.YesNoType@578a045c
+2022-12-11 05:34:04.247 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration byte -> org.hibernate.type.ByteType@139e6e84
+2022-12-11 05:34:04.247 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration byte -> org.hibernate.type.ByteType@139e6e84
+2022-12-11 05:34:04.247 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@139e6e84
+2022-12-11 05:34:04.248 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration character -> org.hibernate.type.CharacterType@286751db
+2022-12-11 05:34:04.248 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration char -> org.hibernate.type.CharacterType@286751db
+2022-12-11 05:34:04.248 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@286751db
+2022-12-11 05:34:04.249 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration short -> org.hibernate.type.ShortType@1ed178c2
+2022-12-11 05:34:04.250 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration short -> org.hibernate.type.ShortType@1ed178c2
+2022-12-11 05:34:04.250 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1ed178c2
+2022-12-11 05:34:04.251 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration integer -> org.hibernate.type.IntegerType@48c84ee8
+2022-12-11 05:34:04.251 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration int -> org.hibernate.type.IntegerType@48c84ee8
+2022-12-11 05:34:04.251 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@48c84ee8
+2022-12-11 05:34:04.252 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration long -> org.hibernate.type.LongType@26dc46f1
+2022-12-11 05:34:04.252 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration long -> org.hibernate.type.LongType@26dc46f1
+2022-12-11 05:34:04.252 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Long -> org.hibernate.type.LongType@26dc46f1
+2022-12-11 05:34:04.254 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration float -> org.hibernate.type.FloatType@5a72fc65
+2022-12-11 05:34:04.254 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration float -> org.hibernate.type.FloatType@5a72fc65
+2022-12-11 05:34:04.254 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@5a72fc65
+2022-12-11 05:34:04.254 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration double -> org.hibernate.type.DoubleType@5acec5c9
+2022-12-11 05:34:04.256 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration double -> org.hibernate.type.DoubleType@5acec5c9
+2022-12-11 05:34:04.256 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@5acec5c9
+2022-12-11 05:34:04.256 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@45848b11
+2022-12-11 05:34:04.257 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@45848b11
+2022-12-11 05:34:04.258 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@13ed7e03
+2022-12-11 05:34:04.258 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@13ed7e03
+2022-12-11 05:34:04.259 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration string -> org.hibernate.type.StringType@424c4d4
+2022-12-11 05:34:04.259 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.String -> org.hibernate.type.StringType@424c4d4
+2022-12-11 05:34:04.260 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@7d599884
+2022-12-11 05:34:04.261 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@5de20abd
+2022-12-11 05:34:04.262 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration url -> org.hibernate.type.UrlType@664e2a3e
+2022-12-11 05:34:04.262 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.net.URL -> org.hibernate.type.UrlType@664e2a3e
+2022-12-11 05:34:04.263 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Duration -> org.hibernate.type.DurationType@6ed5aed3
+2022-12-11 05:34:04.263 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6ed5aed3
+2022-12-11 05:34:04.265 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Instant -> org.hibernate.type.InstantType@18a03b2b
+2022-12-11 05:34:04.266 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@18a03b2b
+2022-12-11 05:34:04.267 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@7ca9d78a
+2022-12-11 05:34:04.267 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@7ca9d78a
+2022-12-11 05:34:04.268 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@55b01004
+2022-12-11 05:34:04.269 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@55b01004
+2022-12-11 05:34:04.270 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@7dee3e27
+2022-12-11 05:34:04.271 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@7dee3e27
+2022-12-11 05:34:04.273 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4d5211dc
+2022-12-11 05:34:04.273 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4d5211dc
+2022-12-11 05:34:04.274 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@58ec745a
+2022-12-11 05:34:04.276 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@58ec745a
+2022-12-11 05:34:04.278 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@42069514
+2022-12-11 05:34:04.278 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@42069514
+2022-12-11 05:34:04.280 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration date -> org.hibernate.type.DateType@731b6085
+2022-12-11 05:34:04.281 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Date -> org.hibernate.type.DateType@731b6085
+2022-12-11 05:34:04.282 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration time -> org.hibernate.type.TimeType@1efc4ded
+2022-12-11 05:34:04.282 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1efc4ded
+2022-12-11 05:34:04.285 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration timestamp -> org.hibernate.type.TimestampType@4030ff48
+2022-12-11 05:34:04.285 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@4030ff48
+2022-12-11 05:34:04.285 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@4030ff48
+2022-12-11 05:34:04.287 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@52792faf
+2022-12-11 05:34:04.289 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration calendar -> org.hibernate.type.CalendarType@39db03d4
+2022-12-11 05:34:04.289 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@39db03d4
+2022-12-11 05:34:04.289 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@39db03d4
+2022-12-11 05:34:04.290 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@16ec6f6a
+2022-12-11 05:34:04.291 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@46236912
+2022-12-11 05:34:04.292 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration locale -> org.hibernate.type.LocaleType@7a9bacd5
+2022-12-11 05:34:04.292 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@7a9bacd5
+2022-12-11 05:34:04.293 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration currency -> org.hibernate.type.CurrencyType@29aefc63
+2022-12-11 05:34:04.294 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@29aefc63
+2022-12-11 05:34:04.295 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration timezone -> org.hibernate.type.TimeZoneType@560d90d
+2022-12-11 05:34:04.295 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@560d90d
+2022-12-11 05:34:04.296 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration class -> org.hibernate.type.ClassType@8b85ef8
+2022-12-11 05:34:04.296 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@8b85ef8
+2022-12-11 05:34:04.297 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@413dd72b
+2022-12-11 05:34:04.297 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@413dd72b
+2022-12-11 05:34:04.297 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@5313637b
+2022-12-11 05:34:04.299 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration binary -> org.hibernate.type.BinaryType@5f107491
+2022-12-11 05:34:04.299 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration byte[] -> org.hibernate.type.BinaryType@5f107491
+2022-12-11 05:34:04.299 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [B -> org.hibernate.type.BinaryType@5f107491
+2022-12-11 05:34:04.301 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6f55b41f
+2022-12-11 05:34:04.301 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6f55b41f
+2022-12-11 05:34:04.301 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6f55b41f
+2022-12-11 05:34:04.302 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration row_version -> org.hibernate.type.RowVersionType@298f8e62
+2022-12-11 05:34:04.303 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration image -> org.hibernate.type.ImageType@5f84d02f
+2022-12-11 05:34:04.304 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration characters -> org.hibernate.type.CharArrayType@6bddaf80
+2022-12-11 05:34:04.304 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration char[] -> org.hibernate.type.CharArrayType@6bddaf80
+2022-12-11 05:34:04.304 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [C -> org.hibernate.type.CharArrayType@6bddaf80
+2022-12-11 05:34:04.305 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6fad215b
+2022-12-11 05:34:04.305 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6fad215b
+2022-12-11 05:34:04.305 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6fad215b
+2022-12-11 05:34:04.305 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration text -> org.hibernate.type.TextType@4a3bb050
+2022-12-11 05:34:04.307 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration ntext -> org.hibernate.type.NTextType@2c1b2464
+2022-12-11 05:34:04.308 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration blob -> org.hibernate.type.BlobType@1ed6e1f0
+2022-12-11 05:34:04.309 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1ed6e1f0
+2022-12-11 05:34:04.309 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1671f0fd
+2022-12-11 05:34:04.311 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration clob -> org.hibernate.type.ClobType@580630f7
+2022-12-11 05:34:04.311 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@580630f7
+2022-12-11 05:34:04.312 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration nclob -> org.hibernate.type.NClobType@1df0df4
+2022-12-11 05:34:04.312 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1df0df4
+2022-12-11 05:34:04.312 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@b6e1afb
+2022-12-11 05:34:04.314 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6cf515b8
+2022-12-11 05:34:04.314 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration serializable -> org.hibernate.type.SerializableType@37919ba
+2022-12-11 05:34:04.317 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration object -> org.hibernate.type.ObjectType@2e85d19e
+2022-12-11 05:34:04.317 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@2e85d19e
+2022-12-11 05:34:04.318 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7d5bb5b1
+2022-12-11 05:34:04.318 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@36fb1cb
+2022-12-11 05:34:04.318 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@41c99bea
+2022-12-11 05:34:04.318 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@28676645
+2022-12-11 05:34:04.319 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@831b8c5
+2022-12-11 05:34:04.319 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@76aeb1e1
+2022-12-11 05:34:04.319 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7b356215
+2022-12-11 05:34:04.319 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.BasicTypeRegistry                  : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@68f36678
+2022-12-11 05:34:04.370  INFO MohamedRaja-PROMON --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2022-12-11 05:34:04.679  INFO MohamedRaja-PROMON --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2022-12-11 05:34:04.697  INFO MohamedRaja-PROMON --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-12-11 05:34:04.730 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.s.TypeConfiguration$Scope          : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@43677a0d] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@3c10c20b]
+2022-12-11 05:34:05.038 DEBUG MohamedRaja-PROMON --- [  restartedMain] o.h.t.s.TypeConfiguration$Scope          : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@43677a0d] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@6d35c2eb]
+2022-12-11 05:34:05.435  INFO MohamedRaja-PROMON --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-11 05:34:05.441 TRACE MohamedRaja-PROMON --- [  restartedMain] o.h.t.s.TypeConfiguration$Scope          : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@6d35c2eb] for TypeConfiguration
+2022-12-11 05:34:05.442  INFO MohamedRaja-PROMON --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-11 05:34:06.435  INFO MohamedRaja-PROMON --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-11 05:34:06.626  INFO MohamedRaja-PROMON --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8090"]
+2022-12-11 05:34:06.661  INFO MohamedRaja-PROMON --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8090 (http) with context path ''
+2022-12-11 05:41:31.322  INFO MohamedRaja-PROMON --- [nio-8090-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-11 05:41:31.322  INFO MohamedRaja-PROMON --- [nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2022-12-11 05:41:31.326  INFO MohamedRaja-PROMON --- [nio-8090-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 4 ms
